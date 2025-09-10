@@ -1,0 +1,171 @@
+{
+  "status": "success",
+  "data": {
+    "categories": [
+      {
+      "category_id": "fruit-trees",
+       "category_name": "Fruit Trees"
+      },
+      {
+   "category_id": "flowering-trees",
+    "category_name": "Flowering Trees"
+      },
+      {
+    "category_id": "shade-trees",
+      "category_name": "Shade Trees"
+      },
+      {
+  "category_id": "medicinal-trees",
+    "category_name": "Medicinal Trees"
+      },
+      {
+       "category_id": "timber-trees",
+    "category_name": "Timber Trees"
+      },
+      {
+   "category_id": "evergreen-trees",
+    "category_name": "Evergreen Trees"
+      },
+      {
+     "category_id": "ornamental-plants",
+     "category_name": "Ornamental Plants"
+      },
+      {
+    "category_id": "bamboo",
+        "category_name": "Bamboo"
+      },
+      {
+        "category_id": "climbers",
+        "category_name": "Climbers"
+      },
+      {
+        "category_id": "aquatic-plants",
+        "category_name": "Aquatic Plants"
+      }
+    ],
+    "plants": [
+      {
+        "id": "1",
+     "name": "Mango Tree",
+ "category": "Fruit Trees",
+ "price": 1200,
+        "description": "The national fruit of India, a large, juicy mango that is full of flavor. The tree is a fast grower and can produce fruit within 3-4 years.",
+   "image": "https://i.ibb.co/L5T190C/mango.jpg",
+    "details": "A fast-growing evergreen tree that can reach a height of 30-40 feet. It is a very popular shade tree and can provide great shade and fruit for years."
+  },
+      {
+    "id": "2",
+    "name": "Guava Tree",
+    "category": "Fruit Trees",
+        "price": 500,
+    "description": "A fast-growing tropical tree that produces delicious, juicy guavas during summer. Its dense green",
+        "image": "https://i.ibb.co/y4L26mK/guava.jpg",
+        "details": "The guava is a common tropical fruit cultivated and appreciated in many tropical and subtropical regions. It is a good source of vitamin C, and the tree is easy to maintain."
+      },
+      
+      
+      
+      
+      {
+        "id": "3",
+    "name": "Shade Tree",
+        "category": "Shade Trees",
+        "price": 500,
+        "description": "A tall, sturdy tree with a wide canopy that provides excellent shade. Perfect for a backyard or park.",
+      "image": "https://i.ibb.co/3sN6d1b/shade-tree.jpg",
+        "details": "A large shade tree can reduce your cooling costs in the summer by providing natural shade to your home. It's a great way to cool your home and beautify your landscape."
+      },
+     
+     
+     
+     
+     
+     
+     
+     
+      {
+        "id": "4",
+    "name": "Flowering Tree",
+      "category": "Flowering Trees",
+    "price": 600,
+     "description": "A beautiful tree that produces a stunning display of vibrant flowers in the spring.",
+   "image": "https://i.ibb.co/q50QvL5/flowering.jpg",
+        "details": "Flowering trees add color and fragrance to your yard. They can also attract birds and other wildlife to your landscape. There are many different types of flowering trees, so you can choose one that is perfect for your yard."
+      },
+
+
+
+
+
+
+
+
+
+
+
+      {
+        "id": "5",
+        "name": "Neem Tree",
+    "category": "Medicinal Trees",
+        "price": 800,
+      "description": "A popular tree with medicinal properties. Its leaves, bark, and seeds are used to treat a variety of ailments.",
+    "image": "https://i.ibb.co/sK6V14h/neem.jpg",
+        "details": "The neem tree is a fast-growing tree that is native to India. It is a very popular medicinal plant and is used to treat a variety of ailments. Its leaves, bark, and seeds are all used to make a variety of medicinal products."
+      },
+      {
+        "id": "6",
+        "name": "Teak Tree",
+        "category": "Timber Trees",
+    "price": 1500,
+        "description": "A large, deciduous tree that is a source of high-quality timber. Its wood is used to make furniture, boats, and other products.",
+       "image": "https://i.ibb.co/c1mXw7R/teak.jpg",
+        "details": "The teak tree is a large, deciduous tree that is a source of high-quality timber. Its wood is used to make furniture, boats, and other products. It is a very popular timber tree and is grown in many different parts of the world."
+      },
+
+
+
+
+
+
+
+
+
+      {
+        "id": "7",
+       "name": "Pine Tree",
+        "category": "Evergreen Trees",
+        "price": 900,
+        "description": "A tall, evergreen tree with long, needle-like leaves. Its wood is used to make paper, furniture, and other products.",
+        "image": "https://i.ibb.co/422X8qN/pine.jpg",
+        "details": "The pine tree is a tall, evergreen tree with long, needle-like leaves. Its wood is used to make paper, furniture, and other products. It is a very popular evergreen tree and is grown in many different parts of the world."
+      },
+      {
+        "id": "8",
+    "name": "Orchid Plant",
+        "category": "Ornamental Plants",
+     "price": 400,
+        "description": "A beautiful plant with stunning flowers. It is a popular choice for indoor decoration and can be grown in a variety of pots and containers.",
+     "image": "https://i.ibb.co/gT7h41F/orchid.jpg",
+        "details": "The orchid is a beautiful plant with stunning flowers. It is a popular choice for indoor decoration and can be grown in a variety of pots and containers. There are many different types of orchids, so you can choose one that is perfect for your home."
+      },
+      {
+        "id": "9",
+     "name": "Banyan Tree",
+        "category": "Shade Trees",
+        "price": 2000,
+    "description": "A massive, spreading tree with aerial prop roots that can grow into new trunks. It's a symbol of longevity and provides immense shade.",
+    "image": "https://i.ibb.co/Gdk9k4S/banyan.jpg",
+        "details": "The Banyan is a species of fig that begins its life as an epiphyte, a plant that grows on another plant. Its seeds are dispersed by birds and germinate in the canopy of host trees. Over time, the Banyan tree's roots grow down to the ground and envelop the host tree, eventually strangling it."
+      },
+      {
+        "id": "10",
+        "name": "Bamboo",
+     "category": "Bamboo",
+        "price": 300,
+    "description": "A fast-growing, evergreen perennial plant. It is a popular choice for creating privacy screens, windbreaks, and garden borders.",
+     "image": "https://i.ibb.co/5c9Q9F7/bamboo.jpg",
+    "details": "Bamboo is a fast-growing, evergreen perennial plant. It is a popular choice for creating privacy screens, windbreaks, and garden borders. Bamboo is also a very versatile plant and can be used to make a variety of products, including furniture, flooring, and paper."
+      }
+    ]
+  }
+}
