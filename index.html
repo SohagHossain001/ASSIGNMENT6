@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Green Earth</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+<div id="loading-spinner" class="spinner-container hidden">
+<div class="spinner"></div>
+</div>
+
+<div id="plant-modal" class="modal hidden">
+<div class="modal-content">
+<span class="close-button">&times;</span>
+<div id="modal-details"></div>
+</div>
+
+
+
+
+
+
+    </div>
+
+<nav class="navbar">
+ <div class="navbar-left">
+<a href="#" class="logo">Green Earth</a>
+</div>
+<div class="navbar-center">
+<a href="#about">About</a>
+<a href="#categories">Gallery</a>
+<a href="#plant-a-tree">Plant a Tree</a>
+</div>
+<div class="navbar-right">
+<a href="#plant-a-tree" class="btn-plant-tree">Plant a Tree</a>
+</div>
+</nav>
+
+<section class="hero-section" id="home">
+<div class="hero-content">
+<h1>Plant a Tree, Grow a Future</h1>
+<p>Join our mission to plant 1 million trees and make the Earth greener for future generations.</p>
+<a href="#categories" class="btn-cta">Get Involved</a>
+</div>
+</section>
+
+<div class="SOHAG">
+<aside class="sidebar categories-sidebar">
+<div class="categories-section">
+<h3>Categories</h3>
+<ul id="categories-list"></ul>
+</div>
+</aside>
+
+<main class="main-area">
+<section class="plants-section" id="categories">
+<h2>Choose Your Trees</h2>
+<div class="plant-grid" id="plant-grid"></div>
+</section>
+</main>
+
+
+
+
+<aside class="sidebar cart-sidebar">
+<div class="cart-section">
+<h3>Your Cart</h3>
+<div id="cart-items"></div>
+<div class="cart-total">
+<span>Total:</span>
+<span id="cart-total-price">টাকা 0</span>
+</div>
+</div>
+</aside>
+</div>
+<section class="about-section" id="about">
+<div class="about-container">
+<div class="about-image">
+ <img src="./assets/about.PNG" alt="A green leaf on a light background.">
+</div>
+<div class="about-content">
+<h2>About  Campaign</h2>
+<p>Green Earth is a global tree plantation initiative dedicated to fighting climate change. Since our start, we've planted over 500,000 trees worldwide. By joining our campaign, you help restore forests, create habitats for wildlife, and combat global warming.</p>
+<ul>
+<li>Restoration of natural habitats</li>
+<li>Improvement of air quality</li>
+<li>Support for local communities</li>
+</ul>
+</div>
+</div>
+
+</section>
+
+<section class="impact-section">
+<h2>OUR Impact</h2>
+<div class="impact-cards">
+ <div class="impact-card">
+<h3>500K+</h3>
+<p>Trees Planted</p>
+</div>
+<div class="impact-card">
+<h3>120+</h3>
+<p>Communtes Involved</p>
+</div>
+<div class="impact-card">
+<h3>30+</h3>
+<p>Countries Reached</p>
+</div>
+</div>
+</section>
+
+<section class="plant-a-tree-section" id="plant-a-tree">
+<div class="form-container">
+<h2>Plant a Tree Today</h2>
+<form id="donation-form">
+<div class="form-group">
+<label for="name">Your Name</label>
+<input type="text" id="name" name="name" placeholder="Your Name" required>
+</div>
+<div class="form-group">
+<label for="email">Your Email Address</label>
+<input type="email" id="email" name="email" placeholder="Your Email Address" required>
+</div>
+<div class="form-group">
+<label for="trees">Number of Trees</label>
+ <input type="number" id="trees" name="trees" min="1" placeholder="Number of Trees" required>
+</div>
+<button type="submit" class="btn-donate">DonatEe Now</button>
+</form>
+</div>
+</section>
+<footer class="footer">
+<p>&copy; 2025 Green Earth. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
